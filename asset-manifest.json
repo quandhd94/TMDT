@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/TMDT/static/css/main.7d64691c.css",
+    "main.js": "/TMDT/static/js/main.f2c2d9c8.js",
+    "static/js/206.264c4a72.chunk.js": "/TMDT/static/js/206.264c4a72.chunk.js",
+    "static/media/shop-banner.png": "/TMDT/static/media/shop-banner.1aa888e1613e573a751a.png",
+    "static/media/product_2.png": "/TMDT/static/media/product_2.1bc52f8922d488cead68.png",
+    "static/media/product_3.png": "/TMDT/static/media/product_3.48eda5293a6f605e73f7.png",
+    "static/media/product_4.png": "/TMDT/static/media/product_4.6d83c6007d5109b357a8.png",
+    "static/media/product_1.png": "/TMDT/static/media/product_1.b24c110a233df54143c8.png",
+    "static/media/product_5.png": "/TMDT/static/media/product_5.b963def7555b7544d220.png",
+    "static/media/banner1.jpg": "/TMDT/static/media/banner1.4a22881c941f7b645fa8.jpg",
+    "index.html": "/TMDT/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.7d64691c.css",
+    "static/js/main.f2c2d9c8.js"
+  ]
+}
