@@ -1,0 +1,89 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+}
+
+.popup-inner {
+  display: flex;
+  align-items: stretch; /* Đảm bảo cả 2 cột có chiều cao bằng nhau */
+}
+
+.popup-image {
+  flex: 1; /* Cột trái chiếm 50% */
+  display: flex;
+  justify-content: center; /* Canh giữa hình ảnh */
+  align-items: center; /* Canh giữa hình ảnh theo chiều dọc */
+}
+
+.popup-image img {
+  width: 100%;
+  height: auto; /* Giữ tỉ lệ khung hình */
+  max-height: 500px; /* Đặt chiều cao tối đa cho hình ảnh */
+  border-radius: 8px;
+  object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+}
+
+.popup-details {
+  flex: 1; /* Cột phải chiếm 50% */
+  padding: 5% 20px; /* Khoảng cách giữa 2 cột */
+  display: flex;
+  flex-direction: column; /* Đặt nội dung văn bản theo chiều dọc */
+}
+
+.popup-details h2,
+.popup-details p {
+  margin: 0; /* Bỏ khoảng cách mặc định */
+  line-height: 2; /* Đặt khoảng cách giữa các dòng */
+  font-style: italic; /* Chữ nghiêng */
+  color: #999; /* Màu chữ xám nhạt */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.popup-actions {
+  margin-top: 10px; /* Khoảng cách phía trên */
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.buy-button,
+.view-details-button {
+  background-color: #333; /* Màu nền cho nút */
+  color: white; /* Màu chữ */
+  border: none; /* Không viền */
+  padding: 10px 15px; /* Padding cho nút */
+  border-radius: 5px; /* Bo góc */
+  cursor: pointer; /* Đổi con trỏ thành hình bàn tay */
+  flex: 1; /* Cho nút cùng chiều rộng */
+  margin: 0 5px; /* Khoảng cách giữa các nút */
+}
+
+.buy-button:hover,
+.view-details-button:hover {
+  background-color: #0056b3; /* Màu nền khi hover */
+}

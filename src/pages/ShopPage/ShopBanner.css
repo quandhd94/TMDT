@@ -1,0 +1,33 @@
+/* src/pages/ShopPage/ShopBanner.css */
+.shop-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.shop-banner-content {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+}
+
+.shop-banner h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.shop-banner p {
+  font-size: 1.2rem;
+}

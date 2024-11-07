@@ -1,0 +1,61 @@
+/* src/components/ProductList.css */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cột */
+  gap: 20px; /* Khoảng cách giữa các sản phẩm */
+  padding: 40px; /* Padding cho toàn bộ danh sách sản phẩm */
+}
+
+.product-card {
+  border: 1px solid #ccc; /* Đường viền cho mỗi sản phẩm */
+  border-radius: 5px; /* Bo tròn góc */
+  padding: 10px; /* Padding cho mỗi sản phẩm */
+  text-align: center; /* Căn giữa nội dung */
+  background-color: #fff; /* Màu nền cho mỗi sản phẩm */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng cho mỗi sản phẩm */
+  transition: transform 0.2s; /* Hiệu ứng khi hover */
+}
+
+.product-card img {
+  max-width: 80%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của sản phẩm */
+  height: auto; /* Tự động điều chỉnh chiều cao */
+  cursor: pointer;
+}
+.productlist-title {
+  font-size: 20px; /* Kích thước chữ lớn hơn */
+  color: #9999; /* Màu chữ nhạt hơn */
+  margin-bottom: 20px; /* Khoảng cách dưới */
+  font-style: italic; /* Nghiêng */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+  text-align: left; /* Căn trái */
+  padding-left: 40px;
+}
+
+.productlist-subtitle {
+  font-size: 28px; /* Kích thước chữ lớn hơn */
+  font-weight: bold; /* Đậm */
+  color: #666; /* Màu chữ */
+  margin-bottom: 10px; /* Khoảng cách dưới */
+  text-transform: uppercase; /* Chữ hoa toàn bộ */
+  letter-spacing: 1px; /* Khoảng cách giữa các chữ cái */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+  text-align: left; /* Căn trái */
+  padding-left: 40px;
+}
+.product-card {
+  position: relative;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

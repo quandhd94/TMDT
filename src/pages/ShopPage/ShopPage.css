@@ -1,0 +1,27 @@
+/* src/pages/ShopPage/ShopPage.css */
+
+.shop-page {
+  padding: 20px 40px; /* Padding 20px trên và dưới, 40px trái và phải */
+  box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước */
+  width: 100vw; /* Đặt chiều rộng đầy đủ */
+  height: auto; /* Chiều cao tự động */
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang nếu có */
+}
+
+.category-selector {
+  display: flex; /* Sử dụng Flexbox cho các nút */
+  flex-direction: column; /* Đặt chiều dọc cho các phần tử con */
+  max-width: 200px; /* Chiều rộng tối đa */
+  flex-shrink: 0; /* Đảm bảo không bị thu hẹp khi không gian hạn chế */
+}
+.category-selector button {
+  padding-left: 20px; /* Khoảng cách bên trái */
+  padding-right: 20px; /* Khoảng cách bên phải */
+  text-align: left; /* Căn trái văn bản */
+}
+.category-selector button:hover {
+  color: orange; /* Màu chữ khi hover */
+}
+h3 {
+  margin-top: 20px; /* Khoảng cách trên cho tiêu đề danh mục */
+}

@@ -1,0 +1,17 @@
+.subscribe-section h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.subscribe-section p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.input-group .form-control {
+  border-radius: 0;
+}
+
+.input-group .btn {
+  border-radius: 0;
+}
