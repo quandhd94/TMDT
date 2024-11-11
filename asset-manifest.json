@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TMDT/static/css/main.7d64691c.css",
-    "main.js": "/TMDT/static/js/main.89d81bd9.js",
+    "main.js": "/TMDT/static/js/main.582e17b6.js",
     "static/js/206.264c4a72.chunk.js": "/TMDT/static/js/206.264c4a72.chunk.js",
     "static/media/shop-banner.png": "/TMDT/static/media/shop-banner.1aa888e1613e573a751a.png",
     "static/media/product_2.png": "/TMDT/static/media/product_2.1bc52f8922d488cead68.png",
@@ -14,6 +14,6 @@
   },
   "entrypoints": [
     "static/css/main.7d64691c.css",
-    "static/js/main.89d81bd9.js"
+    "static/js/main.582e17b6.js"
   ]
 }
